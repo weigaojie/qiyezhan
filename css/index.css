@@ -93,13 +93,31 @@
 .logo .right .search .box{
 	width: 320px;
 	height: 81px;
-	background: red;
+	background:white;
 	position: absolute;
 	top:65px;
 	left:0;
 }
-
-
+.logo .right .search .box .con{
+	width: 320px;
+	height: 27px;
+	font-size: 12px;
+	color:black;
+	border-bottom:1px solid #ff6700;
+	box-sizing: border-box;
+	line-height: 27px;
+}
+.logo .right .search .box .con span{
+	margin-left: 12px;
+}
+.logo .right .search .box .con:nth--child(3){
+	border-bottom:none;
+}
+.logo .right .search .box .con:hover{
+	cursor: pointer;
+	background-color: #ff6700;
+	color:white;
+}
 
 
 
@@ -138,6 +156,29 @@
 .mid .bottom .yuan:hover{
 	cursor: pointer;
 }
+.before{
+	width: 15px;
+	height: 15px;
+	background:black;
+	border-radius: 50%;
+	position: absolute;
+	left: 4px;
+	top:248px;
+}
+.back{
+	width: 15px;
+	height: 15px;
+	background:black;
+	border-radius: 50%;
+	position: absolute;
+	right:4px;
+	top:248px;
+}
+
+
+
+
+
 
 
 .kang{
